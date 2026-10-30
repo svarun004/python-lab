@@ -1,0 +1,11 @@
+import numpy as np 
+L = list(range(10)) 
+[str(c) for c in L]
+OUTPUT
+['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+PROGRAM
+[type(item) for item in L]
+OUTPUT
+[int, int, int, int, int, int, int, int, int, int]
+PROGRAM
+np.zeros(10, dtype='int')
